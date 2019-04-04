@@ -63,6 +63,7 @@ const styles = theme => ({
 		flexDirection: "column"
 	},
 	cardMedia: {
+		height:190,
 		paddingTop: "56.25%" // 16:9
 	},
 	cardContent: {
