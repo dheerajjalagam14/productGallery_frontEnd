@@ -54,7 +54,7 @@ const styles = theme => ({
 	textFieldFormLabel: {
 		fontSize: 18
 	},
-	meetupBtn: {
+	buttn: {
 		marginTop: theme.spacing.unit * 3,
 		marginBottom: theme.spacing.unit,
 		textTransform: "capitalize"
@@ -164,7 +164,7 @@ class AddProduct extends Component {
 									size='medium'
 									color='primary'
 									style={{ borderRadius: 40 }}
-									className={classes.meetupBtn}
+									className={classes.buttn}
 									onClick={this.changeIcon}
 								>
 									Product Photo
@@ -245,7 +245,7 @@ class AddProduct extends Component {
 								size='large'
 								color='primary'
 								style={{ borderRadius: 40 }}
-								className={classes.meetupBtn}
+								className={classes.buttn}
 								fullWidth={true}
 								onClick={this.formSubmit}
 							>
