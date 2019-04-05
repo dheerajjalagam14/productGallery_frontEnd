@@ -26,6 +26,9 @@ const styles = theme => ({
 			color:"white",
 			backgroundColor: "RGBA(255, 0, 0, 0.5)" }
 	},
+	favicon:{
+		color:"red"
+	},
 	iconLiked: {
 		color: "white",
 		backgroundColor: "RGBA(255, 0, 0, 0.7)",
@@ -146,7 +149,7 @@ class Product extends Component {
 										title='Product Image'
 									/>
 									<CardActions>
-										<IconButton className={classes.icon}>
+										<IconButton className={classes.favicon}>
 											<Favorite />
 										</IconButton>
 										<span style={{ fontSize: 16 }}>{localCount}</span>
