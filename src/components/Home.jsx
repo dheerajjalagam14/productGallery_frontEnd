@@ -58,6 +58,7 @@ const styles = theme => ({
 		}
 	},
 	cardMedia: {
+		height:190,
 		paddingTop: "56.25%" // 16:9
 	},
 	cardContent: {
@@ -118,7 +119,7 @@ class Home extends Component {
 						{/* End hero unit */}
 						<Grid container spacing={16}>
 							{allProducts.map((product, index) => (
-								<Grid item key={index} xs={12} sm={6} md={4} lg={3}>
+								<Grid item key={index} xs={12} sm={6} md={3} lg={3}>
 									<Card className={classes.card} onClick={() => this.handleShowDetails(product)}>
 										<CardMedia
 											className={classes.cardMedia}
@@ -127,7 +128,7 @@ class Home extends Component {
 										/>
 										<CardContent className={classes.cardContent}>
 											<Typography gutterBottom variant='h5' component='h2'>
-												{product.name} (${product.price})
+												{product.name} ($ {product.price})
 											</Typography>
 											<Typography>{product.description.substring(0, 30)}...</Typography>
 										</CardContent>

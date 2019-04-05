@@ -166,7 +166,7 @@ class Product extends Component {
 							</Grid>
 							<Grid item xs={12} sm={7} md={7} lg={7}>
 								<Typography variant='h5' align='left' color='textPrimary' gutterBottom>
-									{detailsData.name} (${detailsData.price})
+									{detailsData.name} ($ {detailsData.price})
 								</Typography>
 								<Typography component='p' align='left' color='textPrimary' gutterBottom>
 									{detailsData.description}
