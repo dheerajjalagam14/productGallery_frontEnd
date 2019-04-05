@@ -21,13 +21,16 @@ const styles = theme => ({
 		position: "relative"
 	},
 	icon: {
-		color: "red"
+		color: "red",
+		"&:hover": {
+			color:"white",
+			backgroundColor: "RGBA(255, 0, 0, 0.5)" }
 	},
 	iconLiked: {
 		color: "white",
 		backgroundColor: "RGBA(255, 0, 0, 0.7)",
 		"&:hover": {
-			backgroundColor: "RGBA(255, 0, 0, 1)"
+			backgroundColor: "RGBA(0, 0, 255, 0.8)"
 		}
 	},
 	iconBlue: {
